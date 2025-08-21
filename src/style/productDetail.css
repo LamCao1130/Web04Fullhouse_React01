@@ -1,0 +1,7 @@
+.product-detail {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  color: aqua;
+  text-align: center;
+}

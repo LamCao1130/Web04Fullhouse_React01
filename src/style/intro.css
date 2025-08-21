@@ -1,0 +1,14 @@
+.Box__intro {
+  max-width: 1200px;
+  display: flex;
+  margin: 30px auto;
+  justify-content: space-between;
+}
+
+.Box__intro__item {
+  width: 32%;
+  background-color: gray;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+}

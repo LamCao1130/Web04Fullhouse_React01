@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/productDetail.css";
 
-export default function ProductDetail() {
+export default function ProductDetail(props) {
   return (
     <div className="product-detail">
       <img
@@ -9,6 +9,10 @@ export default function ProductDetail() {
         alt=""
       />
       <h2>Product Detail</h2>
+      <p>{props.item.name}</p>
+      <p>{props.item.age}</p>
+      <p>{props.item.gender}</p>
+      <p>{props.item.major}</p>
     </div>
   );
 }
